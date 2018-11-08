@@ -77,7 +77,7 @@ void getImageData(const FunctionCallbackInfo<Value>& args){
     int r_height = r_width * height / width;
 
     resize(srcImg, img, cv::Size(r_width, r_height), 0, 0, 3);
-	// 获取图片流信息
+	// 获取图片流信息d
 	int channels = img.channels();
 	uchar* buffer = img.data;
 	width = img.cols;

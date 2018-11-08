@@ -2,7 +2,7 @@
     "targets": [
         {
             "target_name": "opencv_image",
-            "sources": [ "./src/opencv_image.cc" ],
+            "sources": [ "./src/image_proc.cc" ],
             "include_dirs": [
                     "<(module_root_dir)/src/win64/include/opencv",
                     "<(module_root_dir)/src/win64/include/opencv2",
